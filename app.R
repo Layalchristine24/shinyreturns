@@ -8,7 +8,9 @@
 #
 
 library(shiny)
-library(simulreturns)
+library(renv)
+renv::load(".")
+# pkgload::load_all(".")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
