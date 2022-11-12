@@ -1,0 +1,18 @@
+Package: shinyreturns
+Type: Package
+Title: Shiny App Online return calculator
+Version: 0.1.0
+Author@R: person("Layal Christine", "Lettry", email = "layal.lettry@gmail.com")
+Maintainer: Layal Christine Lettry <layal.lettry@gmail.com>
+Description: Shiny App for computing the final value of an investment project.
+        Shiny App for simulating returns on stock investment. 
+        Shiny App for evaluating personal investment perspectives.
+URL: https://github.com/Layalchristine24/shinyreturns
+Depends: roxygen2, knitr, shiny, renv, simulreturns
+Encoding: UTF-8
+LazyData: true
+Author: Layal Christine Lettry [aut, cre]
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
